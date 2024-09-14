@@ -1,0 +1,43 @@
+Scanner class is good for beginners. 
+
+Scanner sc = new scann(System.in)
+sc.nextInt
+sc.nextFloat
+sc.next()
+
+But Buffered reader gives more control and can handle network streams, 
+files reading better. I can handle with better exception handling as well 
+compare to Scanner class.
+
+InputStreamReader isr = new (System.in);
+Buffreader br = new buff(isr);
+
+br.readLine() gives you String
+br.read() gives you int that ascii value of input char
+
+can be converted via (char)i;
+
+
+Java is pass by value not by pass by reference because when you call a 
+function in java we pass param but in the function if we updated anything 
+to the param the value of the actual param will not change. 
+It will be only be change within the function scope not to the actual param.
+
+
+Complexity : 
+
+Big O measured the worst case complexity that is upper bound.
+
+Theta measures the average case.
+
+Omega measure the best case that is lower bound.
+
+it is not a good practice to update the input. 
+
+
+
+
+
+
+
+
